@@ -7,7 +7,7 @@ const server = http.createServer( ( req, res) => {
     //res.write('selamat pagi');
 
     res.writeHead(200, { 'content-Type' : 'application/json'});
-    res.write(JSON.stringfy({
+    res.write(JSON.stringify({
         'message' : 'selamat pagi',
         'status' : 'succes'
     }));
